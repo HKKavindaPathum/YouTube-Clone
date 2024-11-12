@@ -28,3 +28,19 @@
 .card p{
     font-size: 14px;
 }
+
+@media (max-width: 869px) {
+    .feed {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-column-gap: 12px;
+        grid-row-gap: 20px;
+    }
+
+    .card h2 {
+        font-size: 14px;
+    }
+
+    .card h3, .card p {
+        font-size: 12px;
+    }
+}
